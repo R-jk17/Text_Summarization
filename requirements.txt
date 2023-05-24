@@ -1,4 +1,5 @@
 transformers
+sentencepiece
 torch
 rouge-score
 datasets
