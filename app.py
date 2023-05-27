@@ -15,7 +15,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Function to generate summaries
 def generate_summary(text):
     # Tokenize input text
-    inputs = tokenizer.encode(text, return_tensors="pt",return_tensors='pt', max_length=512, truncation=True).to(device)
+    inputs = tokenizer.encode(text, return_tensors="pt", max_length=512, truncation=True).to(device)
 
     # Generate summary
     summary_ids = model.generate(inputs[0], num_beams=4, max_length=150, early_stopping=True)
