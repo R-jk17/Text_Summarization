@@ -18,7 +18,7 @@ def generate_summary(text):
     inputs = tokenizer.encode(text, return_tensors="pt", max_length=512, truncation=True).to(device)
     st.write(inputs.shape)
     # Generate summary
-    summary_ids = model.generate(inputs['input_ids'], num_beams=4, max_length=150, early_stopping=True)
+    summary_ids = model.generate(inputs, num_beams=4, max_length=150, early_stopping=True)
     summary = tokenizer.decode(summary_ids.squeeze(), skip_special_tokens=True)
     
     return summary
