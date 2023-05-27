@@ -5,7 +5,7 @@ import torch
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 # Load the fine-tuned T5 model and tokenizer
-model_path = "./model_state_dict.pth"
+model_path = "Neupane9Sujal/Text_Summarization"
 tokenizer = T5Tokenizer.from_pretrained(model_path)
 model = T5ForConditionalGeneration.from_pretrained(model_path)
 
