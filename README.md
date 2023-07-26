@@ -6,7 +6,7 @@ Generally there are two ways of performing text summarization:
    It involves selecting and combining the most important sentences
    and phrases from the original text.
 2) ## Abstractive summarization:
-3) It involves generating new sentences that capture the essence of the original text.
+   It involves generating new sentences that capture the essence of the original text.
 
 
 In this repo, i have demonstrated a technique for performing extractive summarization using 't5-small' model from HuggingFace Transformers.
