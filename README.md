@@ -12,3 +12,7 @@ Generally there are two ways of performing text summarization:
 In this repo, i have demonstrated a technique for performing extractive summarization using 't5-small' model from HuggingFace Transformers.
 For someone who is just learning about NLP, this repo can help them how to perform summarization on a text data.
 Feel free to explore the code and adapt it to your needs!
+
+
+# DEMO of the app
+https://sujalneupane9-text-summarization-app-5e883h.streamlit.app/
